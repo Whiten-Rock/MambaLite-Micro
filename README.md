@@ -1,6 +1,4 @@
 # MambaLite-Micro
-Code coming soon.
-# MambaLite-Micro
 A fully C-based, runtime-free inference engine that brings the Mamba sequence model to resource-constrained microcontrollers (MCUs). Unlike the original Mamba implementation, which depends on GPU-specific kernels and lacks ONNX export, MambaLite-Micro enables direct deployment on embedded devices without vendor-specific runtimes.
 
 Key highlights:
@@ -43,10 +41,23 @@ Each example project includes:
 MIT License.
 
 ------
-
+## Paper
+[MambaLite-Micro: Memory-Optimized Mamba Inference on MCUs](https://arxiv.org/abs/2509.05488)  
+Hongjun Xu, Junxi Xia, Weisi Yang, Yueyuan Sui, Stephen Xia  
+arXiv preprint arXiv:2509.05488, 2025
 ## Citation
 
-The citation link is coming soon.
+If you find this project useful in your research, please cite this:
+
+```bibtex
+@article{MambaLite-Micro2025,
+  title   = {MambaLite-Micro: Memory-Optimized Mamba Inference on MCUs},
+  author  = {Hongjun Xu, Junxi Xia, Weisi Yang, Yueyuan Sui, Stephen Xia},
+  journal = {arXiv preprint arXiv:2509.05488},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2509.05488}
+}
+```
 
 ## Directory Structure
 ```
